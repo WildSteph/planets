@@ -1,0 +1,78 @@
+2 directories, 8 files
+wilder@wilder-ThinkPad-T440p:~/quetes/shell/planets/real$ cd ../
+wilder@wilder-ThinkPad-T440p:~/quetes/shell/planets$ cd ../
+wilder@wilder-ThinkPad-T440p:~/quetes/shell$ tree
+.
+├── planets
+│   ├── fictional
+│   │   ├── arrakis.jpeg
+│   │   ├── coruscant.jpeg
+│   │   └── cybertron.jpeg
+│   ├── inhabited
+│   │   ├── arrakis.jpeg
+│   │   ├── coruscant.jpeg
+│   │   ├── cybertron.jpeg
+│   │   └── earth.jpeg
+│   └── real
+│       ├── gas-giants
+│       │   ├── jupiter.jpeg
+│       │   ├── neptune.jpeg
+│       │   ├── saturn.jpeg
+│       │   └── uranus.jpeg
+│       └── telluric
+│           ├── earth.jpeg
+│           ├── mars.jpeg
+│           ├── mercury.jpeg
+│           └── venus.jpeg
+└── planets.zip
+
+6 directories, 16 files
+
+wilder@wilder-ThinkPad-T440p:~/quetes/shell$ history 
+    1  mkdir planets
+    2  ls
+    3  cd planets/
+    4  mkdir real fictional inhabited
+    5  ls
+    6  cd real/
+    7  mkdir telluric gas-giants dwarf-planets
+    8  ls
+    9  cd ../
+   10  ls
+   11  mv jupiter.jpeg neptune.jpeg saturn.jpeg earth.jpeg mars.jpeg pluto.jpeg uranus.jpeg venus.jpeg mercury.jpeg  real/
+   12  ls
+   13  cd real/
+   14  ls
+   15  cd ../
+   16  ls
+   17  cp arrakis.jpeg  coruscant.jpeg  cybertron.jpeg  inhabited/
+   18  cd real/
+   19  cp earth.jpeg  planets/inhabited
+   20  cp earth.jpeg  planets/inhabited/
+   21  cp earth.jpeg  planets/
+   22  cp earth.jpeg /planets
+   23  cp -R earth.jpeg copiedeearth.jpeg
+   24  ls
+   25  cd ../
+   26  mv real/copiedeearth inhabited/earth
+   27  mv real/copiedeearth.jpeg inhabited/earth.jpeg
+   28  ls
+   29  ls inhabited/
+   30  mv arrakis.jpeg  coruscant.jpeg  cybertron.jpeg  fictional/
+   31  cd real/
+   32  ls
+   33  mv earth.jpeg mars.jpeg mercury.jpeg venus.jpeg 
+   34  ls
+   35  mv earth.jpeg mars.jpeg mercury.jpeg venus.jpeg
+   36  mv earth.jpeg mars.jpeg mercury.jpeg venus.jpeg telluric/
+   37  ls
+   38  mv jupiter.jpeg neptune.jpeg saturn.jpeg uranus.jpeg gas-giants/
+   39  mv pluto.jpeg  dwarf-planets/
+   40  ls
+   41  rm dwarf-planets/
+   42  rm -r dwarf-planets/
+   43  ls
+   44  tree
+   45  cd ../
+   46  tree
+   47  history 
